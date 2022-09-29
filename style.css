@@ -1,0 +1,19 @@
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr{
+    /* background-color: aqua; */
+    column-span: 3;
+}
+td{
+    color: red;
+    height: 50%;
+}
+table{
+    /* width: 50%;
+    height: 50%; */
+}tr :nth-child(even){
+    background-color: rebeccapurple;
+}
